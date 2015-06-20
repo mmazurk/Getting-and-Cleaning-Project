@@ -31,12 +31,12 @@ The following are the final variables produced by the run_analysis.R script:
 
 **ActivityID**: A factor variable with labels that tells you the activity the participant was doing when they were being measured. 
 
-     * 1 = WALKING
-     * 2 = WALKING_UPSTAIRS
-     * 3 = WALKING_DOWNSTAIRS
-     * 4 = SITTING
-     * 5 = STANDING
-     * 6 = LAYING
+     1 = WALKING
+     2 = WALKING_UPSTAIRS
+     3 = WALKING_DOWNSTAIRS
+     4 = SITTING
+     5 = STANDING
+     6 = LAYING
 
 The following Accel variables are all measured in acceleration units, or meters per second squared. 
 
