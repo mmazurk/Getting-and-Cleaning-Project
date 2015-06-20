@@ -40,14 +40,14 @@ The following are the final variables produced by the run_analysis.R script:
 
 The following Accel variables are all measured in acceleration units, or meters per second squared. 
 
-***MeanXAccel***: Acceleration along the X axis.
-***MeanYAccel***: Acceleration along the Y axis.
-***MeanZAccel***: Acceleration along the Z axis.
+**MeanXAccel**: Acceleration along the X axis.
+**MeanYAccel**: Acceleration along the Y axis.
+**MeanZAccel**: Acceleration along the Z axis.
 
-***SdXAccel***: Standard deviation of acceleration along the X axis.
-***SdYAccel***: Standard deviation of acceleration along the Y axis.
-***SdZAccel***: Standard deviation of acceleration along the Z axis.
+**SdXAccel**: Standard deviation of acceleration along the X axis.
+**SdYAccel**: Standard deviation of acceleration along the Y axis.
+**SdZAccel**: Standard deviation of acceleration along the Z axis.
 
 The final column is:
 
-***DataSource***: A factor variable denoting if this was training or testing data.
+**DataSource**: A factor variable denoting if this was training or testing data.

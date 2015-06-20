@@ -13,11 +13,11 @@ Before running this code, please ensure that the raw dataset is located in the w
 
 The most difficult part of this dataset is understanding the stucture and content of the data. For the purposes of the assignment we need the following variables, which are split into both the test and train folders:
 
-*subject_train* shows the participant number
+**subject_train** shows the participant number
 
-*y_train* is the activity label (which can be found in a separate file called activity_labels)
+**y_train** is the activity label (which can be found in a separate file called activity_labels)
 
-*X_train* is the vector data of which elements 1 - 6 (out of of 561) are the mean and standard deviation as follows:
+**X_train** is the vector data of which elements 1 - 6 (out of of 561) are the mean and standard deviation as follows:
 
 ```
 1 tBodyAcc-mean()-X
@@ -53,7 +53,6 @@ SdZAccel
 DataSource
 
 ```
-
 For more information on the variables, please see the Codebook.md file.
 
 
