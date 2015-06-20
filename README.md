@@ -7,7 +7,7 @@ output: html_document
 
 # Running the Function
 
-Before running this code, please ensure that the raw dataset is located in the working directory and extracted/placed in a folder called: UCI HAR Dataset.
+Before running this code, please ensure that the raw dataset is located in the working directory and extracted/placed in a folder called: UCI HAR Dataset. Once you run the code, you will produce a tidy data set that has exactly nine columns in it. The first row contains the column names and each additional row represents a case.
 
 # Description of the Original Dataset 
 

@@ -23,9 +23,9 @@ The experimenter's description of the study is as follows:
 > The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 
 
-# Variables #
+# Columns / Variable Names #
 
-The following are the final variables produced by the run_analysis.R script:
+The following are the final columns produced by the run_analysis.R script:
 
 **ParticipantID**: The participant ID number in the experiment.
 
@@ -41,11 +41,15 @@ The following are the final variables produced by the run_analysis.R script:
 The following Accel variables are all measured in acceleration units, or meters per second squared. 
 
 **MeanXAccel**: Acceleration along the X axis.
+
 **MeanYAccel**: Acceleration along the Y axis.
+
 **MeanZAccel**: Acceleration along the Z axis.
 
 **SdXAccel**: Standard deviation of acceleration along the X axis.
+
 **SdYAccel**: Standard deviation of acceleration along the Y axis.
+
 **SdZAccel**: Standard deviation of acceleration along the Z axis.
 
 The final column is:
